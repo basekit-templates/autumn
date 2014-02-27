@@ -1,0 +1,49 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="bk-pt-default">
+
+<div class="canvas">
+
+<header class="bk-header">
+    <div class="wrapper clearfix">
+        <div class="desktop-phone">
+            {{widget('clicktocall', 'desktopclicktocall', {phoneText: '212 6574 6736'})|raw}}
+        </div>
+        <div class="companyheader clearfix">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+            {{widget('content', 'headercontent', {"content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec eros non enim condimentum tristique. Fusce commodo lectus ac neque tristique auctor.</p>"})|raw}}
+        </div>
+        <div class="desktop-tweet">
+            {{widget('tweet', 'desktoptweet', {'linkText': 'Tweet'})|raw}}
+        </div>
+        <div class="mobile-phone">
+            {{widget('clicktocall', 'tabletclicktocall', {phoneText: '212 6574 6736'})|raw}}
+        </div>
+        
+        <div class="mobile-tweet">
+            {{widget('tweet', 'mobiletweet', {'linkText': 'Tweet'})|raw}}
+        </div>
+    </div><!--end wrapper clearfix-->
+</header>
+
+<div class="main wrapper clearfix">
+    {{widget('line', 'lineone', {'thickness': 'inherit', 'padding': 'inherit', 'length':'inherit', 'align': 'center'})|raw}}
+    {{zone('main')|raw}}   
+    {{widget('line', 'linetwo', {'thickness': 'inherit', 'padding': 'inherit', 'length':'inherit', 'align': 'center'})|raw}}
+</div>
+
+
+<footer class="bk-footer">
+    <div class="wrapper clearfix">
+        {{widget('content', 'footercontent', {"content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec eros non enim condimentum tristique. Fusce commodo lectus ac neque tristique auctor.</p>"})|raw}}
+    </div>
+</footer>
+
+</div><!-- end canvas -->
+
+</div>
+
+{% endblock %}
