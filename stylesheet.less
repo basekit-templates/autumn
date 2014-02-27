@@ -367,7 +367,7 @@ body {
             background-size: 18px;
             background-position: 43px center;
             @media @mobile {
-                background-position: 125px center;
+                background-position: 90px center;
             }
             padding: 12px 20px 12px 38px;
             display: block;
@@ -461,6 +461,9 @@ body {
             .widget.content {
                 width: 80%;
                 margin: 1em auto;
+                @media @mobile {
+                    width: 100%;
+                }
             }
 
 
@@ -1109,6 +1112,9 @@ hr {
         background: white;
         margin: 0 0 2.5em;
         padding: 0.5em 3em 3em;
+        @media @mobile {
+            padding: 0.5em 1.5em 2em;
+        }
     }
 
 }

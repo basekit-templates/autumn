@@ -1,7 +1,7 @@
 {
     "name":"Autumn",
-    "thumbnail":"culpa.png",
-    "screenshot":"culpa.png",
+    "thumbnail":"autumn.png",
+    "screenshot":"autumn.png",
     "tags": {
     "en": ["clean", "menu", "cafe", "bar", "restaurant"],
     "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
@@ -19,39 +19,39 @@
             "color7":"#ffffff"
         },
         "Swatch 2": {
-            "color1":"#192226",
+            "color1":"#d3d0c6",
             "color2":"#ffffff",
-            "color3":"#8b6661",
-            "color4":"#8b6661",
-            "color5":"#000000",
-            "color6":"#ffffff",
+            "color3":"#a59020",
+            "color4":"#8C7A18",
+            "color5":"#a29e91",
+            "color6":"#624000",
             "color7":"#ffffff"
         },
         "Swatch 3": {
-            "color1":"#192226",
+            "color1":"#d3d0c6",
             "color2":"#ffffff",
-            "color3":"#626761",
-            "color4":"#626761",
-            "color5":"#000000",
-            "color6":"#ffffff",
+            "color3":"#a44d2b",
+            "color4":"#a44d2b",
+            "color5":"#a29e91",
+            "color6":"#624000",
             "color7":"#ffffff"
         },
         "Swatch 4": {
-            "color1":"#192226",
+            "color1":"#d3d0c6",
             "color2":"#ffffff",
-            "color3":"#785d50",
-            "color4":"#584237",
-            "color5":"#5c5856",
-            "color6":"#ffffff",
+            "color3":"#a69b2f",
+            "color4":"#a69b2f",
+            "color5":"#a29e91",
+            "color6":"#624000",
             "color7":"#ffffff"
         },
         "Swatch 5": {
-            "color1":"#251f21",
+            "color1":"#d3d0c6",
             "color2":"#ffffff",
-            "color3":"#8d6a7d",
-            "color4":"#704f61",
-            "color5":"#2f292c",
-            "color6":"#ffffff",
+            "color3":"#917509",
+            "color4":"#623200",
+            "color5":"#a29e91",
+            "color6":"#624000",
             "color7":"#ffffff"
         }
     },
