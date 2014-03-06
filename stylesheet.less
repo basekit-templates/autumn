@@ -661,7 +661,7 @@ body {
                             border-bottom: 1px dotted fade(@color-swatch6,20%);
                         }
                         &.menu-item-promoted { /* menu-item-promoted */
-                            display: inline-block;
+                            display: block;
                             .inner-item {
                                 &:before { 
                                     content: "\2605";
@@ -680,7 +680,7 @@ body {
                         }/* end menu-item-promoted */
 
                         .inner-item {
-                            display: inline-block;
+                            display: block;
                             width:100%;
                             padding: 2em 0;
                             h3 { /* menu-item-name */  
@@ -793,6 +793,7 @@ body {
                             }
 
                         } /* end inner-item */
+                        .clearfix;
 
                     } /* end li menu-item */
 
