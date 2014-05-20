@@ -2,6 +2,7 @@
     "name":"Autumn",
     "thumbnail":"autumn.png",
     "screenshot":"autumn.png",
+    "templateType":"menu",
     "tags": {
     "en": ["clean", "menu", "cafe", "bar", "restaurant"],
     "es": ["limpio", "menú", "cafetería", "bar", "restaurante"],
