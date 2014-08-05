@@ -363,18 +363,21 @@ body {
         }
         padding: 0;            
         a {
-            background-image:image('/images/tweet.png');
-            background-size: 18px;
-            background-position: 43px center;
-            @media @mobile {
-                background-position: 90px center;
-            }
-            padding: 12px 20px 12px 38px;
+            padding: 12px 20px;
             display: block;
             background-color: @color-swatch2;
             color: @color-swatch4;
             margin: 0;
             border: 1px dotted @color-swatch1;
+            &:before {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                width: 25px;
+                height: 25px;
+                background-image:image('/images/tweet.png');
+                margin-right: 0.3em;
+            }
             &:hover {
                 text-decoration: underline; 
             }
